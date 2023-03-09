@@ -1,0 +1,407 @@
+html,
+body {
+  color: white;
+  padding: 0;
+  margin: 0;
+  /*font-family: "Lobster", cursive;*/
+  font-family: "Josefin Sans", sans-serif;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.top {
+  background-color: rgba(27, 27, 27, 80%);
+  width: 70%;
+}
+
+.logo img {
+  height: 15%;
+  width: 15%;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+p {
+  font-size: 1em;
+}
+
+.box {
+  background-image: url("https://cdn.glitch.global/2d4be2f5-0247-4991-9528-32f684f79c7f/pexels-khaldoun-alkhalid-6874084.jpg?v=1671488969110");
+  width: 100%;
+  background-position: 50% 25%;
+  background-size: cover;
+}
+
+.title {
+  padding: 5% 0% 0% 15%;
+}
+
+.title h1 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  margin-top: 4%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.items {
+  width: 20%;
+  border-radius: 20px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: 1px solid white;
+}
+.items p {
+  text-align: center;
+}
+
+.items span {
+  font-size: 1.5em;
+}
+
+button {
+  text-decoration: none;
+  margin: 10px 15px 10px 15px;
+  padding: 7px;
+  font-family: serif;
+  font-size: 1em;
+  color: #030303;
+  background-color: #f5b800;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border: 1px solid #ffffff;
+  box-shadow: 1px 3px 2px #292823;
+  -webkit-box-shadow: 1px 3px 2px #343432;
+  -moz-box-shadow: 1px 3px 2px #2e2d29;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.asterisc {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+a i {
+  font-size: 30px;
+  color: #f5b800;
+  padding: 0px 10px 20px 50px;
+}
+
+/* -------------------------------------------------------------------Slide image second part */
+
+.imagecar {
+  height: 300px;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  padding: 10% 0% 0% 0%;
+  color: #272727;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5% 5% 5% 5%;
+  justify-content: center;
+}
+
+.card p {
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: center;
+  color: #272727;
+  line-height: 1.5em;
+}
+
+.card h1 {
+  text-align: center;
+  margin: 0;
+  color: #f5b800;
+  font-size: 3em;
+}
+
+.spaces {
+  width: 100%;
+  height: 2px;
+  background-color: #f5b800;
+  margin: 100px 0px 100px 0px;
+}
+
+/* ----------------------------------------------------------------------Grid image */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0;
+  grid-gap: 50px;
+  align-items: center;
+  margin: 5% 10% 5% 10%;
+}
+
+.wrapper div img {
+  height: 200px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.center p {
+  display: flex;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #272727;
+  width: 70%;
+  text-align: center;
+  justify-content: justify;
+  line-height: 1.5em;
+}
+.center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.text h1 {
+  margin: 0;
+  color: #f5b800;
+  font-size: 3em;
+  width: 100%;
+  margin: 10% 0% 0% 0%;
+  text-align: center;
+}
+.text1 h1 {
+  margin: 0;
+  color: #f5b800;
+  font-size: 3em;
+  width: 100%;
+  margin: 10% 0% 0% 0%;
+  text-align: center;
+}
+
+.one {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  justify-content: center;
+}
+.two {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  justify-content: center;
+}
+.three {
+  grid-column: 3;
+  grid-row: 1;
+  display: flex;
+  justify-content: center;
+}
+.four {
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+}
+.five {
+  grid-column: 2;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+}
+.six {
+  grid-column: 3;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+}
+.seven {
+  grid-column: 1;
+  grid-row: 3;
+  display: flex;
+  justify-content: center;
+}
+.eight {
+  grid-column: 2;
+  grid-row: 3;
+  display: flex;
+  justify-content: center;
+}
+.nine {
+  grid-column: 3;
+  grid-row: 3;
+  display: flex;
+  justify-content: center;
+}
+
+.btn div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+/* ----------------------------------------------------------------------Round image */
+
+.round {
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+}
+
+nav {
+  color: #272727;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  width: 150px;
+  margin: 10px 10px 10px 10px;
+}
+
+nav ul li {
+  margin: 10px 10px 10px 10px;
+  line-height: 1.5em;
+}
+
+footer {
+  background-color: #272727;
+  padding: 0px 0px 10px 0px;
+  text-align: center;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0px 50px 0px 50px;
+}
+
+footer ul li {
+  padding: 0px 10px 0px 10px;
+}
+
+.space {
+  width: 100%;
+  height: 2px;
+  background-color: #f5b800;
+  margin: 100px 0px 100px 0px;
+}
+
+/* ----------------------------------------------------------------------Responsive */
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .top {
+    background-color: rgba(27, 27, 27, 60%);
+    width: 100%;
+  }
+  .items {
+    width: 30%;
+    margin-bottom: 1%;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 350px !important;
+  }
+
+  .wrapper div img {
+    height: 120px !important;
+    width: 150px !important;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .imagecar {
+    width: 350px;
+    height: 250px !important;
+  }
+  .card h1 {
+    text-align: center;
+    padding-top: 10%;
+  }
+  .slide {
+    flex-wrap: wrap;
+  }
+  .center p {
+    width: 90%;
+    padding-bottom: 10%;
+  }
+  .text1 h1 {
+    padding-top: 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .top {
+    background-color: rgba(27, 27, 27, 60%);
+    width: 100%;
+  }
+  .items {
+    width: 30%;
+    margin-bottom: 1%;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 800px;
+  }
+  .wrapper div img {
+    height: 250px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .imagecar {
+    height: 350px;
+  }
+  .card h1 {
+    text-align: center;
+    padding-top: 10%;
+  }
+  .slide {
+    flex-wrap: wrap;
+  }
+  .center p {
+    width: 90%;
+    padding-bottom: 10%;
+  }
+  .text1 h1 {
+    padding-top: 10%;
+  }
+}
